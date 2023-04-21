@@ -138,6 +138,9 @@ background-color: var(--color-ocean,#404bbf);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  height: 72px;
+  width: 264px; 
+  box-sizing: border-box;
   color: var(--color-slate ,#434455);
 }
 
@@ -251,6 +254,17 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-slate, #434455);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
