@@ -175,7 +175,7 @@ color: var(--color-grey,);
 background-color: var(--color-white);
 display: flex;
 gap: 24px;
-flex-basis: calc((100% - 3 * 24px) / 4);
+width: calc((100% - 3 * 16px) / 3);
 }
 .section-team-list {
  background-color: var(--color-cloud);
@@ -204,6 +204,7 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
+flex-basis: calc((100% - 72px) /4); 
  }
  .list-service{
   flex-basis: calc((100% - 3 * 16px)/3);
@@ -367,7 +368,7 @@ p{
 
 .list-img-list{
   display: flex;
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .img-list-link{
