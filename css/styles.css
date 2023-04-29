@@ -228,8 +228,6 @@ flex-basis: calc((100% - 72px) /4);
           background-color: var(--main-text-color);
           text-align: center;
           margin-bottom: 8px;
-          width: calc((100% - 72px) / 4);
-
     }
 
 .footer-container-link {
@@ -246,8 +244,8 @@ flex-basis: calc((100% - 72px) /4);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-      display: inline-block;
-        margin-bottom: 16px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-link {
@@ -366,7 +364,7 @@ p{
 
 }
 
-.list-img-list{
+.list-images-list{
   display: flex;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
