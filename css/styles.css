@@ -137,16 +137,17 @@ background-color: var(--color-ocean);
   background-color:var(--color-ocean);
 }
 
-.about-list-link{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-grey);
-  text-align: center;
-  margin-bottom: 8px; 
-    width: calc((100% - 3 * 24px) / 4);
-}
+/* Strategy  */
+        .about-list-link {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 1.2;
+          letter-spacing: 0.02em;
+          color: var(--color-grey);
+          background-color: var(--main-text-color);
+          margin-bottom: 8px;
+        }
+
 .text{
   font-size: 16px;
   line-height: 1.5;
@@ -165,17 +166,6 @@ background-color: var(--color-ocean);
   margin-bottom: 72px;
  }
 
-.list-img-list{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--color-grey,);
-background-color: var(--color-white);
-display: flex;
-gap: 24px;
-width: calc((100% - 3 * 16px) / 3);
-}
 .section-team-list {
  background-color: var(--color-cloud);
 padding: 120px 0 ;
@@ -203,7 +193,7 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
-flex-basis: calc((100% - 72px) /4); 
+width: calc((100% - 3 * 24px) / 4) ;
  }
  .list-service{
   flex-basis: calc((100% - 3 * 16px)/3);
@@ -217,17 +207,6 @@ flex-basis: calc((100% - 72px) /4);
  .img-container{
   padding: 32px 16px;
  }
-
-    .about-list-link{
-        font-weight: 500;
-          font-size: 20px;
-          line-height: 1.2;
-          letter-spacing: 0.02em;
-          color: var(--color-grey);
-          background-color: var(--main-text-color);
-          text-align: center;
-          margin-bottom: 8px;
-    }
 
 .footer-container-link {
   background-color: var(--color-navy-blue);
@@ -365,8 +344,19 @@ p{
 
 .list-images-list{
   display: flex;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 16px) / 3);
 }
+  .list-img-list {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: var(--color-grey, );
+      background-color: var(--color-white);
+      display: flex;
+      gap: 24px;
+      width: calc((100% - 3 * 16px) / 3);
+    }
 
 .img-list-link{
   display: flex;
@@ -404,6 +394,9 @@ padding-bottom: 120px;
 }
 .images{
   display: block;
+}
+.list-link{
+  flex-basis: calc((100% - 3 * 24px) / 4) ;
 }
 
 
